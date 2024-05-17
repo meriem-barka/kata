@@ -1,4 +1,4 @@
-ROM gitpod/workspace-full:latest
+FROM gitpod/workspace-full:latest
 RUN sudo apt update
 RUN sudo apt install -y apt-utils apt-transport-https postgresql postgresql-contrib
 RUN sudo install-packages php-intl php-redis php-amqp php-pgsql
